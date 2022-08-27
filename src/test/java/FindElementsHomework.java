@@ -40,7 +40,7 @@ public class FindElementsHomework {
         //className
         driver.findElement(By.cssSelector(".footer-phoneWrapper"));
         driver.findElement(By.cssSelector(".footer-email"));
-        //tag
+        //tag (I am not sure that get footer and header is correct, but I wanted to find smth unique by label)
         driver.findElement(By.cssSelector("header"));
         driver.findElement(By.cssSelector("footer"));
         //tag+class
@@ -60,7 +60,7 @@ public class FindElementsHomework {
         //className
         driver.findElement(By.xpath("//div[@class='footer-phoneWrapper']"));
         driver.findElement(By.xpath("//a[@class='footer-email']"));
-        //tag
+        //tag (I am not sure that get footer and header is correct, but I wanted to find smth unique by label)
         driver.findElement(By.xpath("//header"));
         driver.findElement(By.xpath("//footer"));
         //tag+class
